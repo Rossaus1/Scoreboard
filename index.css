@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color:#1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    text-align:center;
+}
+#home-points{
+   background-color:black;
+   color:salmon;
+   padding:30px 60px;
+   border-radius:5px;
+   font-size:100px;
+   margin:auto;
+   width:60px;
+   height:70px;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   font-family:Cursed Timer ULiL;
+   }
+button{
+    color:#9AABD8;
+    background-color:#1B244A;
+    border:solid 1px #9AABD8;
+    border-radius:5px;
+    margin:20px 3px;
+    font-size:20px;
+    padding:10px;
+    font-family:Cursed Timer ULiL;
+}
+#home-title{
+   font-size:50px;
+   display:flex;
+   justify-content: center;
+   margin-bottom:10px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #guest-points{
+   background-color:black;
+   color:salmon;
+   padding:30px 60px;
+   border-radius:5px;
+   font-size:100px;
+   margin:auto;
+   width:60px;
+   height:70px;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   font-family:Cursed Timer ULiL;
+   }
+   #guest-title{
+   font-size:50px;
+   display:flex;
+   justify-content: center;
+   margin-bottom:10px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #resetbtn{
+  height:50px;
+  margin-top:150px;
+ }
+@font-face {
+    src: url("digital-7.ttf"); 
+    font-family:digital;
+    }
+    
+ #countdown{
+  text-align:center;
+  color:white;
+  font-size:30px;
+  margin-bottom:-70px;
+  font-family:digital;
+  }
